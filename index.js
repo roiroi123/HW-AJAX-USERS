@@ -1,6 +1,7 @@
 async function init() {
     try {
-        const result = await getAPI({url : "https://gorest.co.in/public-api/users?_format=json&access-token=bDYGMb_YwoETOXvHQdnA_-RuiNfd0t0NpcMR"})
+        // i registered to the API website and got a constant token -_-
+        const result = await getAPI({url : "https://gorest.co.in/public-api/users?_format=json&access-token=TCCLGqkQi-iO6ptX2j-ZfvNvLqvGE7p7R9xC"})
         const renderedResult = result.result
         DrawRenderAPI(renderedResult)
     } catch (error) {
