@@ -10,10 +10,8 @@ async function init() {
 init()
 
 function DrawRenderAPI(APIResult) {
-    console.log(APIResult);
     const tbody = $("#tbody")
     APIResult.forEach(user => {
-        console.log(user);
         const tr = $("<tr></tr>")
         const tdId = $(`<td>${user.id}</td>`)
         const tdFName = $(`<td>${user.first_name}</td>`)
